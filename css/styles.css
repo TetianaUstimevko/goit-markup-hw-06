@@ -437,6 +437,7 @@ img {
 }
 
 /* FOOTER */
+
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -552,10 +553,10 @@ img {
   margin-right: 93px;
 }
 
-/* .footer-btn-send {
-  display: block;
-  gap: 10px;
-  } */
+.footer-form {
+  margin: 0;
+  width: 570px;
+}
 
 .footer-btn-send {
   padding: 10px 62px 10px 28px;
@@ -575,6 +576,7 @@ img {
   display: flex;
   align-items: center;
   text-align: center;
+  /* background-image: url("data:image/svg+xml,%3Csymbol id='icon-send' viewBox='0 0 32 32'%3E%3Cpath d='M32 0 0 18l10.227 3.788L26 7 14.002 23.186l.01.004-.012-.004V32l5.735-6.691L27 28l5-28z' /%3E%3C/symbol%3E"); */
 }
 
 .footer-btn-send::after {
@@ -584,24 +586,37 @@ img {
   width: 24px;
   height: 24px;
 
-  background-image: url("../images/icon-send.svg#icon-send");
+  background-image: url("data:image/svg+xml,%3Csymbol id='icon-send' viewBox='0 0 32 32'%3E%3Cpath d='M32 0 0 18l10.227 3.788L26 7 14.002 23.186l.01.004-.012-.004V32l5.735-6.691L27 28l5-28z' /%3E%3C/symbol%3E");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
 }
 
-.footer-btn-icon {
-  fill: var(--common-white);
-}
-
 .footer-input {
-  padding: 15px 295px 15px 16px;
+  padding: 0;
   width: 358px;
   height: 50px;
   background-color: transparent;
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  padding-left: 16px;
+  margin-right: 12px;
+  outline: 1px solid transparent;
+  outline-offset: -1px;
+}
+
+.footer-send-form {
+  /* display: flex; */
+  margin: 0;
+  padding: 0;
+  width: 570px;
+}
+.footer-send-blok {
+  display: flex;
 }
 
 /* PORTFOLIO */
